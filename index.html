@@ -1,58 +1,46 @@
 <!DOCTYPE html>
+
+
+<!--  I I I   RAJOUTER TRADUCTION EN ANGLAIS DU CV  -->
+
+
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Accueil</title>
-    <link rel="stylesheet" href="./css/styleMain.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Flex:opsz,wght@8..144,100;8..144,300;8..144,500;8..144,700;8..144,900&display=swap"
-      rel="stylesheet"
-    />
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script> 
-      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <head>
+        <title>CV Esteban</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>  
+        <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+            <link rel="stylesheet" href="./css/styleMain.css" />
+        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     </head>
-        <body data-bs-spy="scroll" data-bs-target="#myNavbar">
-            
-          <nav class="sticky-top" id="myNavbar">
 
-            <a href="#" class="nav-icon" aria-label="visit homepage" aria-current="page">
-                <span>Site CV</span>
-            </a>
+    <body data-bs-spy="scroll" data-bs-target="#myNavbar">
 
-              <div class="main-navlinks">
-                    <button class="ceres" type="button" aria-label="Toggle navigation" aria-expanded="false">
-                    <span></span>
-                    <span></span>
-                    <span></span>
+        <nav id="myNavbar" class="navbar navbar-expand-lg navbar-dark sticky-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
                 </button>
-                    <div class="navlinks-container" id="navbarNavAltMarkup">
-                      
-                   
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
                         <a class="nav-link active" aria-current="page" href="#about">Moi</a>
                         <a class="nav-link" href="#skills">Compétences</a>
                         <a class="nav-link" href="#experience">Expérience</a>
                         <a class="nav-link" href="#education">Education</a>
                         <a class="nav-link" href="#portfolio">Portfolio</a>
                         <a class="nav-link" href="#recommendations">Recommandations</a>
-
-                        
-
-                    
+                    </div>
                 </div>
             </div>
-
-
-        </nav>
-          <script src="./js/scriptNav.js"></script>
-          <section id="about" class="container-fluid">
+        </nav>            
+        
+        <section id="about" class="container-fluid">
             <div class="col-8 col-lg-4 profile-picture">
-                <img src="Images/me.jpg" class="rounded-circle">
+                <img src="./Images/me.jpg" class="rounded-circle">
             </div>
             <div class="heading">
                 <h1>Hello, c'est moi Esteban</h1>
@@ -110,6 +98,22 @@
                 <ul class="timeline">
                     <li>
                         <div class="timeline-badge"><span class="bi-briefcase-fill"></span></div>
+                        <div class="timeline-panel-container-inverted">
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h3>Pole Star</h3>
+                                    <h4>Stage</h4>
+                                    <p class="text-muted"><span class="bi-clock-fill"></span> 2022</p>
+                                </div>
+                                <div class="timeline-body">
+                                    <p>Pole Star est depuis plus de 10 ans, le pionnier et le leader de la géolocalisation indoor.</p>
+                                </div>
+                                <a href="https://www.polestar.eu/fr/">Pole</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>   
+                        <div class="timeline-badge"><span class="bi-briefcase-fill"></span></div>
                         <div class="timeline-panel-container">
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
@@ -121,6 +125,7 @@
                                     <p>Emploi saisonnier à la maire d'Espalion(12) durant le mois de juillet</p>
                                     
                                 </div>
+                                <a>b</a>
                             </div>
                         </div>
                     </li>
@@ -137,6 +142,7 @@
                                 <div class="timeline-body">
                                     <p>Société ITA Moudling Process(12), à Sévérac-le-Château</p>
                                 </div>
+                                <a href="https://www.espalion.fr/">b</a>
                             </div>
                         </div>
                     </li>
@@ -153,6 +159,7 @@
                                 <div class="timeline-body">
                                     <p>Agent logistique et découverte du monde de l'entreprise à Eiffage Énergie à Rodez(12)</p>
                                 </div>
+                                <a href="https://www.ita-moulding-process.com/">au</a>
                             </div>
                         </div>
                     </li>
@@ -170,7 +177,7 @@
                     
                     <div class="col-lg-6">
                         <div class="education-block">
-                            <h5>2022-</h5>
+                            <h5>2022</h5>
                             <span class="bi-clock"></span>
                             <h3>ÉCOLE D'INGÉNIEUR EPITA</h3>
                             <h4>En cours</h4>
@@ -234,9 +241,11 @@
                         </a>
                     </div>
                     <div class="col-md-4">
-                        <a href="https://facebook.com" target="_blank">
-                            <img src="images/youtube.png" class="img-thumbnail" alt="facebook video">
+                        <a href="https://ceresvendingmachine.github.io/SiteWebOffProjet/" target="_blank">
+                            <img src="./Images/logo.png" class="img-thumbnail" alt="facebook video">
                         </a>
+                        <h3>Distributeur automatique</h3>
+
                     </div>
                 </div>
             </div>
@@ -288,5 +297,10 @@
             <a href="#about"><span class="bi-chevron-up"></span></a>
             <h5>© EsteCaDitQuoi.COM</h5>
         </footer>
-    </body>
+            
+            
+            
+        </body>
+        
+
 </html>
