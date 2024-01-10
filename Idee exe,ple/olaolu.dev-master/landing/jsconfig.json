@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["src/*"],
+      "@saucedrip/core/*": ["../literal-sauce-drip/*"]
+    }
+  },
+  "exclude": ["node_modules"]
+}
