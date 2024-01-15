@@ -5,9 +5,9 @@ import type { iconPaths } from './IconPaths';
 
 /** Main menu items */
 const textLinks: { label: string; href: string }[] = [
-	{ label: 'Home', href: '/' },
-	{ label: 'Work', href: '/work/' },
-	{ label: 'About', href: '/about/' },
+	{ label: 'Accueil', href: '/' },
+	{ label: 'Projets', href: '/work/' },
+{ label: 'À Propos', href: '/about/' },
 ];
 
 /** Icon links to social media — edit these with links to your profiles! */
@@ -61,7 +61,7 @@ const iconLinks: { label: string; href: string; icon: keyof typeof iconPaths }[]
 			<div class="socials">
 				{
 					iconLinks.map(({ href, icon, label }) => (
-						<a href={href} target="_blank" class="social">   <!-- <a href={href} target="_blank" class="social"> -->
+						<a href={href} target="_blank" class="social">  
 							<span class="sr-only">{label}</span>
 							<Icon icon={icon} />
 						</a>
